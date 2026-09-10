@@ -1,6 +1,12 @@
-# controle-estoque-python
+# Sistema de Controle de Estoque em Python
 
-Sistema de controle de estoque desenvolvido em Python.
+Sistema desenvolvido em Python para controle e gerenciamento de pallets em um ambiente de logística e armazenagem.
+
+## Sobre o projeto
+
+O projeto simula operações básicas de um estoque, permitindo cadastrar pallets, consultar informações, realizar transferências de localização e controlar endereços de armazenagem.
+
+A aplicação foi desenvolvida com foco em praticar lógica de programação, estruturas de dados, validações e persistência de informações.
 
 ## Funcionalidades
 
@@ -8,16 +14,24 @@ Sistema de controle de estoque desenvolvido em Python.
 - Consulta de pallets
 - Transferência de pallets
 - Controle de localização
-- Identificação de chão e porta-palete
+- Identificação entre chão e porta-palete
 - Validação de localização ocupada
-- Salvamento dos dados em arquivo JSON
+- Validação da quantidade de caixas
+- Armazenamento dos dados em arquivo JSON
+- Atualização da localização do pallet
 
-## Tecnologias
+## Tecnologias utilizadas
 
 - Python
 - JSON
 - GitHub
+- VS Code
 
-## Objetivo
+## Estrutura do projeto
 
-Projeto desenvolvido para praticar programação em Python e aplicar conhecimentos de tecnologia em um cenário de logística e controle de estoque.
+```text
+controle-estoque-python/
+│
+├── app.py
+├── estoque.json
+└── README.md
