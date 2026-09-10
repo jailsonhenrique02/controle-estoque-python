@@ -13,7 +13,7 @@ O projeto foi criado com foco em praticar programação, lógica computacional e
 - Cadastro de pallets
 - Consulta de pallets
 - Transferência de pallets
-- Controle de endereços
+- Controle de Endereços
 - Identificação de localização no chão
 - Identificação de posição em porta-palete
 - Verificação de localização ocupada
@@ -21,7 +21,7 @@ O projeto foi criado com foco em praticar programação, lógica computacional e
 - Atualização da localização do pallet
 - Armazenamento das informações em JSON
 
-## Tecnologias utilizadas
+## Tecnologia Ultilizadas
 
 - Python
 - JSON
